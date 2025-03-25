@@ -4,11 +4,10 @@
 ## **Description**  
 Email Writer Assistant adds an **"AI Reply"** button to Gmail, allowing users to generate AI-powered email responses with one click.  
 
-📂 Repository Structure
-main branch → Contains the backend code (Spring Boot API).
-master branch → Contains the frontend code (React + Vite).
-chrome-extention branch → New branch for the Chrome Extension.
-
+## Repository Structure
+- **main branch** → Contains the backend code (Spring Boot API).
+- **master branch** → Contains the frontend code (React + Vite).
+- **chrome-extention** → Contains the Chrome extention code.
 
 
 ## **Features**  
