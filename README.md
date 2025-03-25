@@ -23,27 +23,5 @@ The frontend of SmartEmail Writer is built using **React** via **Vite**, providi
 - **Copy response** to clipboard for easy use
 - **Responsive and user-friendly UI**
 
-## Getting Started
-### Prerequisites
-- Node.js (>=16)
-- npm or yarn
-
-### Installation & Running the Frontend Locally
-1. Clone the repository and switch to the frontend branch:
-   ```sh
-   git clone -b master https://github.com/BemanZayed/AiEmail-Writer.git
-   cd AiEmail-Writer
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-   ```sh
-   npm run dev
-   ```
-
-The application should now be running at `http://localhost:5173`.
-
 ## Backend API Integration
 The frontend interacts with the **backend API**, which is hosted on the **main branch** of the repository. The backend uses **Spring Boot** to handle requests and integrates with **Gemini's API** to generate email replies.
