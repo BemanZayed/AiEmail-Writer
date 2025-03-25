@@ -20,23 +20,6 @@ SmartEmail Writer is a backend service built using **Spring Boot**. It provides 
 - **Accepts email content & tone** as input parameters.
 - **Returns an AI-generated response** in a structured format.
 
-## Installation & Running the Backend Locally
-### Prerequisites
-- Java (>= 11)
-- Maven
-
-### Steps to Run the Backend
-1. Clone the repository and switch to the backend branch:
-   ```sh
-   git clone -b main https://github.com/BemanZayed/AiEmail-Writer.git
-   cd AiEmail-Writer
-   ```
-2. Build and run the Spring Boot application:
-   ```sh
-   mvn spring-boot:run
-   ```
-3. The backend API should be running at `http://localhost:8080/api/email/generate`.
-
 ## API Testing
 You can test the API by sending a **POST request** to:
 ```
@@ -54,7 +37,3 @@ With the following JSON body:
 {
   "response": "Hi there! I'm doing well, thanks for asking! How are you? Let me know if there's anything I can help you with. Best, [Your Name]"
 }
-```
-## License
-This project is licensed under the MIT License.
-
