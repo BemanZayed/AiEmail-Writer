@@ -8,6 +8,7 @@ SmartEmail Writer is a backend service built using **Spring Boot**. It provides 
 ## Repository Structure
 - **main branch** → Contains the backend code (Spring Boot API).
 - **master branch** → Contains the frontend code (React + Vite).
+- **chrome-extention** → Contains the Chrome extention code.
 
 ## Tech Stack
 - **Spring Boot** → For building the RESTful backend API.
